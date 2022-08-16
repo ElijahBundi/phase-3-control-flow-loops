@@ -30,7 +30,7 @@ def reverse_string(str)
   # your code here
   reversed_str = ""
   i = 0
-  while i < str.length
+  while i < str.length do
     reversed_str = str[i] + reversed_str
     i += 1
   end
